@@ -26,7 +26,7 @@ function currentLine(katzDeliLine){
     for(var i = 0; i < katzDeliLine.length; i++){
       strLine = strLine + `${i+1}. ${katzDeliLine[i]}, `
     }
-      strLine.pop()
+    strLine.slice(0, strLine.length)
       
   }
   return strLine
