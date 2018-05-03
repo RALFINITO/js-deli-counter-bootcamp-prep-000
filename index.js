@@ -17,4 +17,8 @@ function nowServing(katzDeliLine){
   return strServing
 }
 
-function 
+function currentLine(katzDeliLine){
+    if(katzDeliLine.length === 0){
+    strLine = "There is nobody waiting to be served!"
+  }
+}
