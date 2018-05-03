@@ -27,4 +27,5 @@ function currentLine(katzDeliLine){
       strLine = strLine + `${i}. ${katzDeliLine[i]}`
       
   }
+  return strLine
 }
